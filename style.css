@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: azure;
+}
+
+.header .box1, .box3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 50px;
+    gap: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.header .box2 {
+    font-size: 40px;
+}
+
+.top-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+    background-image: url("./images/background3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-body .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background-color: black;
+    opacity: 80%;
+    height: 500px;
+    width: 500px;
+}
+
+.top-body p {
+    color: azure;
+}
+
+.top-body .box2 {
+    display: flex;
+    border: 3px solid black;
+    background-color: black;
+    opacity: 80%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+
+.mid-body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: black;
+    color: azure;
+    gap: 20px;
+}
+
+.mid-body1 .mid-body-box1 {
+    text-align: center;
+}
+
+.mid-body1 .mid-body-box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.mid-body2 {
+    background-image: url("./images/background1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: aliceblue;
+}
+
+.bot-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    color: azure;
+}
+
+.bot-body .bot-box1 {
+    text-align: center;
+}
+
+.bot-body .bot-box2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-size: 15px;
+    height: 100px;
+    gap: 5px;
+}
